@@ -1,0 +1,36 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# SQLite database
+app.db
+*.db
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+
+# IDE / editor junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# Uvicorn & logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
